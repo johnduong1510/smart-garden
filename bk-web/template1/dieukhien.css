@@ -1,0 +1,142 @@
+	/*==Style cơ bản cho website==*/
+*{
+	box-sizing: border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+}
+body{
+	font-family: sans-serif,Arial;
+	font-weight: 300;
+	color: #333;
+	line-height: 1.254;
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+/*Chia cột website*/
+#container{
+	padding-left: 150px;
+	position: relative;
+	left: 0;
+	width: 100%;
+}
+#menu{
+	position: fixed;
+	height: 100%;
+	background-color: #191818;
+	width: 150px;
+	left: 0;
+}
+/*Menu*/
+#menu ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+#menu ul li{
+
+	line-height: 2.9em;
+	height: 2.9em;
+	transition: all 1s;
+	-moz-transition: all 1s;
+	-webkit-transition: all 1s;
+}
+#menu ul li a{
+	display: block;
+	color: #fff;
+	padding: 0 1em;
+	border-bottom: 1px solid #333;
+}
+#menu ul li:hover{
+	background-color: #454545;
+}
+/*========================================= row ==========================================*/
+.row{
+		overflow: auto;
+		margin: 0 auto;
+	}
+	.row .col{
+		float: left;
+		/*width: 33.3333%;*/
+		width: 50%;
+		padding-left: 12.5%;
+	}
+	.row .col img{
+		width: 100px;
+		height: 100px;
+		float:left;
+	}
+	.row .col p{
+		float: left;
+		text-align: left;
+		font-size: 30px;
+		margin-left: 14%;
+		margin-top: 9%;
+	}
+
+	/*========================================= box dieu khien ==========================================*/
+
+	#dieukhien .title{
+		color: #2d58d8;
+		font-style: italic;
+		font-size: 30px;
+		text-align: center;
+	}
+	.row #box5 {
+		width: 60%;
+	}
+	.row #box5 >h2{
+
+	}
+	/*******************************************CSS 4 Toggle Switch************************************/
+	/* The switch - the box around the slider */
+ .row .switch {
+  float: right;
+  position: relative;
+  display: inline-block;
+  margin-top: 9%;
+  width: 60px;
+  height: 34px;
+}
+/* Hide default HTML checkbox */
+.switch input {display:none;}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+input:checked + .slider {
+  background-color: #2196F3;
+}
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+/* Rounded sliders */
+
+
+.row #box6 {
+		width: 60%;
+	}

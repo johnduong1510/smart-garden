@@ -1,0 +1,95 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.21.1.0
+Copyright (C) 2016 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Duong John, Duong John, LIC=RC9UH-WLA95-LCTJF-6GCMH-7RG7P-WFXZ8
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.21a
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 3 (build 300)
+Assembler:       Armasm.exe V5.06 update 3 (build 300)
+Linker/Locator:  ArmLink.exe V5.06 update 3 (build 300)
+Library Manager: ArmAr.exe V5.06 update 3 (build 300)
+Hex Converter:   FromElf.exe V5.06 update 3 (build 300)
+CPU DLL:         SARMCM3.DLL V5.21a
+Dialog DLL:      DCM.DLL V1.13.8.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V2.0.18.0
+Dialog DLL:      TCM.DLL V1.14.14.0
+ 
+<h2>Project:</h2>
+C:\Users\John\Desktop\New-Project-DATN\MDK-ARM\New-Project-DATN.uvprojx
+Project File Date:  05/03/2017
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 3 (build 300)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'New-Project-DATN'
+compiling main.c...
+../Src/main.c(644): warning:  #177-D: variable "l" was declared but never referenced
+  	int l=0;
+../Src/main.c(714): warning:  #188-D: enumerated type mixed with another type
+  	if(watering_flag==0) {HAL_GPIO_WritePin(
+PIOD,
+PIO_PIN_14,0);
+../Src/main.c(715): warning:  #188-D: enumerated type mixed with another type
+  		HAL_GPIO_WritePin(
+PIOC,
+PIO_PIN_4,1);
+../Src/main.c(717): warning:  #188-D: enumerated type mixed with another type
+  	else {HAL_GPIO_WritePin(
+PIOD,
+PIO_PIN_14,1);
+../Src/main.c(838): warning:  #188-D: enumerated type mixed with another type
+  	GPIO_PinState ok=0;
+../Src/main.c(841): warning:  #188-D: enumerated type mixed with another type
+  			ok=1;
+../Src/main.c(853): warning:  #188-D: enumerated type mixed with another type
+  	GPIO_Output(gpiox,gpio_pin,1);
+../Src/main.c(854): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(gpiox,gpio_pin,0);
+../Src/main.c(856): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(gpiox,gpio_pin,1);
+../Src/main.c(860): warning:  #188-D: enumerated type mixed with another type
+  	if(DHT11_CONFIRM(gpiox,gpio_pin,80,0)) return 100;
+../Src/main.c(861): warning:  #188-D: enumerated type mixed with another type
+  	if(DHT11_CONFIRM(gpiox,gpio_pin,80,1)) return 101;
+../Src/main.c(865): warning:  #188-D: enumerated type mixed with another type
+  		if(DHT11_CONFIRM(gpiox,gpio_pin,50,0)) return 102;
+../Src/main.c(866): warning:  #188-D: enumerated type mixed with another type
+  		GPIO_PinState ok=0;
+../Src/main.c(872): warning:  #188-D: enumerated type mixed with another type
+  				ok=1;
+../Src/main.c(880): warning:  #188-D: enumerated type mixed with another type
+  	if(DHT11_CONFIRM(gpiox,gpio_pin,50,0)) return 104;
+../Src/main.c(905): warning:  #188-D: enumerated type mixed with another type
+  		if(flagMicro) {flagMicro=0; break;}
+../Src/main.c(913): warning:  #188-D: enumerated type mixed with another type
+  		if(delayMicro==0){flagMicro=1; HAL_TIM_Base_Stop_IT(htim);}
+../Src/main.c: 17 warnings, 0 errors
+linking...
+Program Size: Code=12872 RO-data=464 RW-data=288 ZI-data=2568  
+"New-Project-DATN\New-Project-DATN.axf" - 0 Error(s), 17 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.0.1.pack
+                ARM::CMSIS:CORE:5.0.1
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.0.1
+
+<h2>Collection of Component include folders:</h2>
+  C:\Users\John\Desktop\New-Project-DATN\MDK-ARM\RTE
+  C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include
+  C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.0.1
+Build Time Elapsed:  00:00:04
+</pre>
+</body>
+</html>

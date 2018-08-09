@@ -1,0 +1,109 @@
+/*==Style cơ bản cho website==*/
+*{
+	box-sizing: border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+}
+body{
+	font-family: sans-serif,Arial;
+	font-weight: 300;
+	color: #333;
+	line-height: 1.254;
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+
+/*Chia cột website*/
+#container{
+	padding-left: 150px;
+	position: relative;
+	left: 0;
+	width: 100%;
+}
+#menu{
+	position: fixed;
+	height: 100%;
+	background-color: #191818;
+	width: 150px;
+	left: 0;
+}
+/*Menu*/
+#menu ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+#menu ul li{
+
+	line-height: 2.9em;
+	height: 2.9em;
+	transition: all 1s;
+	-moz-transition: all 1s;
+	-webkit-transition: all 1s;
+}
+#menu ul li a{
+	display: block;
+	color: #fff;
+	padding: 0 1em;
+	border-bottom: 1px solid #333;
+}
+#menu ul li:hover{
+	background-color: #454545;
+}
+
+/*==Content==*/
+#content{
+	padding: 1em 8em;
+}
+#header,.call-to-action{
+	text-align: center;
+}
+	/*== header ==*/
+	#header{}
+	#header #logo{}
+	#header #slogan{
+		/*color: #8997a0;*/
+		color: black;
+		font-weight: bold;
+		font-size: 1em;
+	}
+	/*==Call to action==*/
+	.call-to-action{
+		padding: 1.5em 20%;
+		border: 1.5px solid #e8e8e8;
+		background-color: #efefef;
+		font-weight: bold;
+	}
+	.call-to-action #ten-do-an{
+		font-weight: bold;
+		font-size: 16px;
+	}
+	.call-to-action #ten-sv-mssv{
+		text-align: left;
+	}
+	.call-to-action #ten-sv-mssv #svth{
+    	margin-right: 30%;
+	}
+	.call-to-action #ten-sv-mssv #mssv{}
+	.call-to-action #ten-sv-mssv #ten-sv1{
+    	margin-right: 15.6%;
+	}
+	.call-to-action #ten-sv-mssv #ten-sv2{
+    	margin-right: 20.5%;
+	}
+
+
+	/*==footer==*/
+	#footer{
+		font-size: 85%;
+		border-top: 1px solid black;
+		color: #838383;
+		margin-top: 3%;
+	}
+
+
+
+

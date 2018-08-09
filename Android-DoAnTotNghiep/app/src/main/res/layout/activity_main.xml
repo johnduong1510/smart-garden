@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.dvl.android_doantotnghiep.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.tomer.fadingtextview.FadingTextView
+            android:id="@+id/fadingTextView"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:textSize="22sp"
+            app:texts="@array/examples"
+            tools:text="hello world" />
+
+        <GridView
+            android:id="@+id/gridView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:horizontalSpacing="30dp"
+            android:padding="10dp"
+            android:verticalSpacing="10dp"
+            android:stretchMode="columnWidth"
+            android:numColumns="2"
+            android:scrollbars="none" />
+
+        <com.tomer.fadingtextview.FadingTextView
+            android:id="@+id/fadingTextView_2"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:textSize="22sp"
+            app:texts="@array/examples"
+            tools:text="hello world" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <!--Dung de can ImageView keo dai ra - Day SwitchButton ra xa hon-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/wateringicon" />
+            </LinearLayout>
+            <!-- -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:layout_weight="0"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <com.kyleduo.switchbutton.SwitchButton
+                    android:id="@+id/waterSwitchButton"
+                    android:layout_width="@dimen/ksw_md_thumb_ripple_size"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    app:kswTintColor="@color/colorPrimary" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fabMode"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="8dp" />
+</FrameLayout>

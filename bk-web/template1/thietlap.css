@@ -1,0 +1,128 @@
+	/*==Style cơ bản cho website==*/
+*{
+	box-sizing: border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+}
+body{
+	font-family: sans-serif,Arial;
+	font-weight: 300;
+	color: #333;
+	line-height: 1.254;
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+/*Chia cột website*/
+#container{
+	padding-left: 150px;
+	position: relative;
+	left: 0;
+	width: 100%;
+}
+#menu{
+	position: fixed;
+	height: 100%;
+	background-color: #191818;
+	width: 150px;
+	left: 0;
+}
+/*Menu*/
+#menu ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+#menu ul li{
+
+	line-height: 2.9em;
+	height: 2.9em;
+	transition: all 1s;
+	-moz-transition: all 1s;
+	-webkit-transition: all 1s;
+}
+#menu ul li a{
+	display: block;
+	color: #fff;
+	padding: 0 1em;
+	border-bottom: 1px solid #333;
+}
+#menu ul li:hover{
+	background-color: #454545;
+}
+
+	/*========================================= row ==========================================*/
+
+
+
+	.row #thietlap {
+		
+	}
+
+	#thietlap .title{
+		color: #2d58d8;
+		font-style: italic;
+		font-size: 30px;
+		text-align: center;
+	}
+
+	#thietlap #title_2{
+		margin-top: 20%;
+	}
+	#thietlap #title_3{
+		margin-top: 20%;
+	}
+	.row{
+		overflow: auto;
+		margin: 0 auto;
+	}
+	.row .col{
+		float: left;
+		/*width: 33.3333%;*/
+		width: 50%;
+		padding-left: 12.5%;
+		border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+	}
+	.row .col h2{
+		
+	}
+	.row .col img{
+		width: 100px;
+		height: 100px;
+		float: left;
+		margin-left: 10%;
+	}
+	.row .col input{
+		margin:10%;
+		text-align: center;
+		box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24); /*Đổ bóng*/
+	}
+
+	/*========================================= button ==========================================*/
+
+	.row #box5{
+		margin-top: 24%;
+	}
+	.row button{
+		float: right;
+		width: 6%;
+		height: 6%;
+		font-family: "Roboto", sans-serif;
+		text-transform: uppercase;
+		background: #4CAF50;
+		width: 100%;
+		border: 0;
+		padding: 12px;
+		color: #FFFFFF;
+		font-size: 18px;
+		cursor: pointer;
+		margin-top: -2%;
+	}
+	.row button:hover{
+		background-color: #307a41;
+	}
+
+	
+	

@@ -1,0 +1,71 @@
+/*==Style cơ bản cho website==*/
+*{
+	box-sizing: border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+}
+body{
+	font-family: sans-serif,Arial;
+	font-weight: 300;
+	color: #333;
+	line-height: 1.254;
+}
+
+#logo{
+	margin: auto 37%;
+}
+#slogan{
+	color: black;
+	font-weight: bold;
+	font-size: 1em;
+	text-align: center;
+}
+
+.form {
+  position: relative; /*Giúp di chuyển phần tử không ảnh hướng đến
+  phần tử khác - Relative: Dùng để thiết lập 1 phần tử mà không làm ảnh hướng việc hiển thị ban đầu*/
+  background: #FFFFFF;
+  max-width: 360px;
+  height: auto;
+  margin: 0 auto 12px;
+  padding: 45px;
+  padding-bottom: 1%;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24); /*Đổ bóng*/
+}
+.form input {
+  font-family: "Roboto", sans-serif;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0; /*Không viền*/
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+.form .change-passwd-form{
+	display: none;
+}
+
+.form button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  background: #4CAF50;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  cursor: pointer;
+}
+.form .btn-swap-form{
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  background: #FFF;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: black;
+  font-size: 12px;
+  cursor: pointer;
+}

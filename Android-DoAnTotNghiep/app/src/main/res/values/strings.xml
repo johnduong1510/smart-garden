@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Android-DoAnTotNghiep</string>
+    <string-array name="examples">
+        <item>Hello</item>
+        <item>Fading TextView</item>
+    </string-array>
+    <string name="nhiet_do_nguong_duoi">Nhiệt độ ngưỡng dưới</string>
+    <string name="nhiet_do_nguong_tren">Nhiệt độ ngưỡng trên</string>
+    <string name="no_warning">Không có thông báo</string>
+    <string name="overtempe_warning">Cảnh báo quá nhiệt</string>
+    <string name="belowtempe_warning">Cảnh báo hạ nhiệt</string>
+    <string name="below_soildhumidity">Độ ẩm đất ngưỡng dưới</string>
+    <string name="over_soilhumidity">Độ ẩm đất ngưỡng trên</string>
+    <string name="oversoilhumidity_warning">Cảnh báo độ ẩm cao</string>
+    <string name="belowsoilhumidity_warning">Cảnh báo độ ẩm quá thấp</string>
+    <string name="default_fadingTextView_1">Giám sát</string>
+    <string name="default_fadingTextView_2">Điều khiển</string>
+    <string name="no_notice">Không có thông báo</string>
+    <string name="below_humidity">Độ ẩm không khí ngưỡng dưới</string>
+    <string name="over_humidity">Độ ẩm không khí ngưỡng trên</string>
+    <string name="tempe">Nhiệt độ</string>
+    <string name="humidity">Độ ẩm</string>
+    <string name="soil_humidity">Độ ẩm đất</string>
+</resources>

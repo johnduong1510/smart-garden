@@ -1,0 +1,27 @@
+--cpu Cortex-M4.fp
+"new-project-datn\stm32f4xx_hal_msp.o"
+"new-project-datn\main.o"
+"new-project-datn\stm32f4xx_it.o"
+"new-project-datn\system_stm32f4xx.o"
+"new-project-datn\startup_stm32f411xe.o"
+"new-project-datn\stm32f4xx_hal_adc.o"
+"new-project-datn\stm32f4xx_hal_adc_ex.o"
+"new-project-datn\stm32f4xx_hal_cortex.o"
+"new-project-datn\stm32f4xx_hal_dma_ex.o"
+"new-project-datn\stm32f4xx_hal_uart.o"
+"new-project-datn\stm32f4xx_hal_rcc_ex.o"
+"new-project-datn\stm32f4xx_hal_pwr_ex.o"
+"new-project-datn\stm32f4xx_hal_flash_ramfunc.o"
+"new-project-datn\stm32f4xx_hal_tim.o"
+"new-project-datn\stm32f4xx_hal_tim_ex.o"
+"new-project-datn\stm32f4xx_hal_pwr.o"
+"new-project-datn\stm32f4xx_hal_rcc.o"
+"new-project-datn\stm32f4xx_hal_flash_ex.o"
+"new-project-datn\stm32f4xx_hal_gpio.o"
+"new-project-datn\stm32f4xx_hal_dma.o"
+"new-project-datn\stm32f4xx_hal.o"
+"new-project-datn\stm32f4xx_hal_flash.o"
+--library_type=microlib --strict --scatter "New-Project-DATN\New-Project-DATN.sct"
+--diag_suppress=L6329 --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "New-Project-DATN.map" -o New-Project-DATN\New-Project-DATN.axf

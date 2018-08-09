@@ -1,0 +1,119 @@
+	/*==Style cơ bản cho website==*/
+*{
+	box-sizing: border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+}
+body{
+	font-family: sans-serif,Arial;
+	font-weight: 300;
+	color: #333;
+	line-height: 1.254;
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+/*Chia cột website*/
+#container{
+	padding-left: 150px;
+	position: relative;
+	left: 0;
+	width: 100%;
+}
+#menu{
+	position: fixed;
+	height: 100%;
+	background-color: #191818;
+	width: 150px;
+	left: 0;
+}
+/*Menu*/
+#menu ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+#menu ul li{
+
+	line-height: 2.9em;
+	height: 2.9em;
+	transition: all 1s;
+	-moz-transition: all 1s;
+	-webkit-transition: all 1s;
+}
+#menu ul li a{
+	display: block;
+	color: #fff;
+	padding: 0 1em;
+	border-bottom: 1px solid #333;
+}
+#menu ul li:hover{
+	background-color: #454545;
+}
+
+	/*========================================= row ==========================================*/
+
+
+
+	.row #giamsat {
+		
+	}
+
+	#giamsat .title{
+		color: #2d58d8;
+		font-style: italic;
+		font-size: 30px;
+		text-align: center;
+	}
+
+	.row{
+		overflow: auto;
+		margin: 0 auto;
+	}
+	.row .col{
+		float: left;
+		/*width: 33.3333%;*/
+		width: 50%;
+		padding-left: 12.5%;
+	}
+	.row .col img{
+		width: 100px;
+		height: 100px;
+		float:left;
+	}
+	.row .col p{
+		text-align: left;
+		font-size: 30px;
+		margin-left: 40%;
+		margin-top: 14%;
+	}
+
+	/*========================================= each box ==========================================*/
+
+	.row #box3{
+		margin-top: 8%;
+	}
+
+	.row #box4{
+		margin-top: 8%;
+	}
+
+	.row #box3 > .low-settings{
+		margin-top: 0;
+		color: #3967b2;
+	}
+	.row #box3 > .high-settings{
+		margin-top: -3%;
+		color: #f24646;
+	}
+
+	.row #box4 > .low-settings{
+		margin-top: 0;
+		color: #3967b2;
+	}
+	.row #box4 > .high-settings{
+		margin-top: -3%;
+		color: #f24646;
+	}
