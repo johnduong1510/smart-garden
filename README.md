@@ -6,3 +6,6 @@ I use Keil-C to be my IDE and after config CubeMX you can connect to Keil-C to c
 
 Read wiki "Smart Garden" for full detais about sensors, algorithms...
 https://github.com/johnduong1510/smart-garden/wiki/Smart-Garden-Using-ARM32-STMF4-and-ESP8266-01
+
+The main source file is located "smart-garden/New-Project-DATN/Src/main.c"
+
